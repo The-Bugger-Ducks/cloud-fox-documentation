@@ -40,7 +40,7 @@ Este requisito se trata do cadastro de estações e usuários, o que significa p
 
 | Fluxo de estações                                                                                                                                                                                                | Demonstração                                                   |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
-| **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); <br> - listagem de usuários; <br> - solicitação de novo enquadramento de perfil | Cadastro de estações (manual) <br> Visualização dos dados <br> |
+| **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); | Cadastro de estações (manual) <br> Visualização dos dados <br> |
 
 </div>
 
@@ -52,10 +52,10 @@ Este requisito se trata do modo de visualização dos dados emitidos pelas esta�
 
 ### ☔️ RNF 08: Implementar CI/CD
 
-Este requisito não funcional se trata da implementação de práticas de Integração e Entrega Contínua ("CI/CD") a pedido da FATEC. Prevê a aplicação de pipelines, realização de deploys, utilização de boas práticas com versionamento de código (como nomenclatura de branches, GitFlow, Conventional Commits, entre outros) além da criação de casos de teste que futuramente serão integrados ao sistema. Em relação a nmenclatura de branches é possível observar na documentação [desta tarefa](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/issues/9), já os deploys se pode conferir pelos links abaixo:
+Este requisito não funcional se trata da implementação de práticas de Integração e Entrega Contínua ("CI/CD") a pedido da FATEC. Prevê a aplicação de pipelines, realização de deploys, utilização de boas práticas com versionamento de código (como nomenclatura de branches, GitFlow, Conventional Commits, entre outros) além da criação de casos de teste que futuramente serão integrados ao sistema. Em relação a nomenclatura de branches é possível observar na documentação [desta tarefa](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/issues/9), já os deploys se pode conferir pelos links abaixo:
 
 - Backend: [https://cloud-fox.onrender.com/](https://cloud-fox.onrender.com/)
-- Frontend:
+- Frontend: [https://cloud-fox.netlify.app/](https://cloud-fox.netlify.app/)
 
 ### ⚡️ RNF 09: Documentação
 
@@ -69,13 +69,16 @@ Este requisito se trata da criação de uma documentação acerca dos endpoints 
 Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: frontend e backend, onde, na primeira sprint, o time de frontend ficou responsável pela confecção do protótipo, projeto frontend e integração de funcionalidades enquanto o time de backend ficou responsável pela criação dos endpoints necessários e pesquisas sobre o tema do desafio, procurando implementar a melhor arquitetura possível. 
 - O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
     
-<div align="center"><img src="" alt="Burndown chart"></img></div>
+<div align="center">
+    
+![Burndown](https://user-images.githubusercontent.com/69374340/190932337-40f6e8a8-0b5c-4139-8083-0108c77fad6e.png)
+</div>
     
 <span id="links">
     
 ## :link: Links úteis
 
-- Site do projeto: []()
+- Site do projeto: [https://cloud-fox.netlify.app/](https://cloud-fox.netlify.app/)
 - Tags geradas em cada repositório que simbolizam o fim da 1ª sprint:
   - Repositório do site: [clique aqui para acessar "cloud-fox-web"](https://github.com/The-Bugger-Ducks/cloud-fox-web)
   - Repositório da API: [clique aqui para acessar "cloud-fox-back"](https://github.com/The-Bugger-Ducks/cloud-fox-back)
