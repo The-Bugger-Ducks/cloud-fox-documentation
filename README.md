@@ -3,8 +3,7 @@
 <span id="topo">
 <p align="center">
     <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
+    <a href="#backlogs">Backlogs, Épicos & User Stories</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
     <a href="#equipe">Equipe</a>
 </p>
@@ -20,10 +19,10 @@ A partir da apresentação do desafio enfrentado pela empresa parceira, a soluç
 
 ### 🏁 Entregas de Sprints
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web, mobile, back...), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
-| Sprint | Previsão | Status           | Histórico |
+| Sprint | Previsão de entrega | Status           | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 18/09/2022 | 🚧 Em andamento    | -- |
-| 02 | 09/10/2022 | 🛑 Não iniciada    | -- |
+| 01 | 18/09/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-01/README.md) |
+| 02 | 09/10/2022 | 🚧 Em andamento    | -- |
 | 03 | 06/11/2022 | 🛑 Não iniciada    | -- |
 | 04 | 27/11/2022 | 🛑 Não iniciada    | -- |
 
@@ -31,16 +30,13 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 
 <span id="backlogs">
 
-## :dart: Backlogs & User Stories
-> Em breve...
+## :dart: Backlogs, Épicos & User Stories
+
+<div align="center">
+
+![BACKLOGS](https://user-images.githubusercontent.com/69374340/190915973-c44bf95b-e084-437b-9138-55a249610db3.png)
+</div>
   
-→ [Voltar ao topo](#topo)
-
-<span id="prototipo">
-
-## :desktop_computer: Protótipo & Documentação
-> Em breve...
-    
 → [Voltar ao topo](#topo)
 
 <span id="tecnologias">
