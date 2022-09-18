@@ -1,76 +1,83 @@
-<h1 align="center"> :cloud: Cloud Fox :cloud: </h1>
-
 <span id="topo">
+
+<h1 align="center">Sprint 1: 29/08/2022 a 18/09/2022</h1>
+
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs, Épicos & User Stories</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a> &nbsp |&nbsp &nbsp
+    <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
+    <a href="#links">Links úteis</a>
 </p>
-   
-<span id="sobre">
 
-## :bookmark_tabs: Sobre o projeto
-A partir da apresentação do desafio enfrentado pela empresa parceira, a solução desenvolvida se configura em um sistema para observação de dados meteorológicos, assim abrangendo a montagem e configuração de uma estação meteorológica com diversos tipos de sensores e um sistema capaz de ler os dados enviados por ela, permitindo a análise de seus dados em gráficos e tabelas tanto em modelo desktop/web quanto mobile.
+O projeto se baseia no desenvolvimento de um site para observação de dados meteorológicos, assim abrangendo a montagem e configuração de uma estação meteorológica com diversos tipos de sensores e um sistema capaz de ler os dados enviados por ela, permitindo a análise de seus dados em gráficos e tabelas tanto em modelo desktop/web quanto mobile. Tendo em mente o MVP, a primeira sprint se deu com a criação de telas e funcionalidades "chave", tais como fluxos de usuários (criação, exclusão e listagem), bem como de estações, om sua listagem e criação automática pelo backend. Para isso, foram levantados e validados os requisitos e o protótipo, construindo os serviços e interfaces visando uma entrega de grande valor condizente com os desejos do cliente.
 
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
+<span id="objetivos">
+    
+## :dart: Objetivos da Sprint
+Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por essa sprint são:
 
-:pushpin: Status do Projeto: **Em andamento** 🚧
+- :heavy_check_mark: **RF 03:** Cadastro das estações, parâmetros e usuários
+- :heavy_check_mark: **RF 05:** Dashboards para visualização dos parâmetros meteorológicos
+- :heavy_check_mark: **RNF 08:** Implementar CI/CD
+- :heavy_check_mark: **RNF 09:** Documentação
 
-### 🏁 Entregas de Sprints
-Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web, mobile, back...), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
-| Sprint | Previsão de entrega | Status           | Histórico |
-|:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 18/09/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-01/README.md) |
-| 02 | 09/10/2022 | 🚧 Em andamento    | -- |
-| 03 | 06/11/2022 | 🛑 Não iniciada    | -- |
-| 04 | 27/11/2022 | 🛑 Não iniciada    | -- |
+<span id="entregas">
+        
+## 🌤 Entregas
+Para entregas da sprint, tivemos os artefatos SCRUM validados, como Backlog do Produto, Backlog das Sprints, Épicos e User Stories, através de comunicação direta entre o P.O. e o cliente. Para observar esses artefatos, acesse [este link](https://github.com/The-Bugger-Ducks/cloud-fox-documentation#backlogs).
 
-→ [Voltar ao topo](#topo)
+Para extrair e entender os desejos do cliente, foi construído um protótipo inicial no Figma, criando a identidade visual e design do sistema e apresentando para validação com o cliente, onde o resultado deste protótipo foi traduzido para um site em React e com as devidas integrações das funcionalidades acordadas para esta sprint.
 
-<span id="backlogs">
+### ❄️ RF 03: Cadastro das estações, parâmetros e usuários
 
-## :dart: Backlogs, Épicos & User Stories
+Este requisito se trata do cadastro de estações e usuários, o que significa permitir o CRUD completo de usuários além de criar, listar e acessar dados de estações. Para isso, foi desenvolvido o fluxo de usuários e o dashboard de estações, porém, como o acordado entre time e cliente, o cadastro das estações será automático (entre a estação e o backend), sem parte interativa presente no frontend, mas sua automatização (do cadastro e recebimento dos dados de estações) serão desenvolvidos a partir da próxima sprint.
 
 <div align="center">
 
-![BACKLOGS](https://user-images.githubusercontent.com/69374340/190915973-c44bf95b-e084-437b-9138-55a249610db3.png)
+| Fluxo de usuário comum                                                                                                                   | Fluxo de usuário administrador                                                                                                                                                                               |
+| :--------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - solicitação de novo enquadramento de perfil | **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - listagem de usuários; <br> - aceite/recusa de solicitações de enquadramento de perfil <br> - edição de usuários |
+
+| Fluxo de estações                                                                                                                                                                                                | Demonstração                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); <br> - listagem de usuários; <br> - solicitação de novo enquadramento de perfil | Cadastro de estações (manual) <br> Visualização dos dados <br> |
+
 </div>
-  
+
+### 🌪 RF 05: Dashboards para visualização dos parâmetros meteorológicos
+
+Este requisito se trata do modo de visualização dos dados emitidos pelas estações meteorológicas cadastradas. Na estrutura que foi implementada, qualquer usuário (fazendo login ou não, até o momento) pode acessar todos os dados disponíveis de estações existentes, como nome, localização e os dados enviados por seus sensores, observando-os em forma de gráficos de linha (onde o eixo horizontal é sempre o tempo e o vertical muda de unidade a cada tipo de sensor analisado, podendo representar milímetros de água, no caso do pluviômetro, graus Celsius, no caso do sensor de temperatura, entre outras unidades de medida possíveis).
+
+<div align="center"><img src="" alt="Demonstração da dashboard de estações"></img></div>
+
+### ☔️ RNF 08: Implementar CI/CD
+
+Este requisito não funcional se trata da implementação de práticas de Integração e Entrega Contínua ("CI/CD") a pedido da FATEC. Prevê a aplicação de pipelines, realização de deploys, utilização de boas práticas com versionamento de código (como nomenclatura de branches, GitFlow, Conventional Commits, entre outros) além da criação de casos de teste que futuramente serão integrados ao sistema. Em relação a nmenclatura de branches é possível observar na documentação [desta tarefa](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/issues/9), já os deploys se pode conferir pelos links abaixo:
+
+- Backend: [https://cloud-fox.onrender.com/](https://cloud-fox.onrender.com/)
+- Frontend:
+
+### ⚡️ RNF 09: Documentação
+
+Este requisito se trata da criação de uma documentação acerca dos endpoints criados, seus parâmetros e retornos para facilitação do consumo da API e visibilidade das funcionalidades criadas. Para tal detalhamento foi utilizada a ferramenta [Swagger](https://swagger.io/), onde se pode realizar requisições e observar as rotas existentes através [deste link](https://cloud-fox.onrender.com/api-docs/#/).
+
 → [Voltar ao topo](#topo)
 
-<span id="tecnologias">
-
-## 🛠️ Tecnologias
-
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
-
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 
-<img src="https://img.shields.io/badge/Styled_Components-CED4DA?style=for-the-badge&logo=styled-components&logoColor=ff309f" alt="Styled Components" /> 
-<img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React" /> 
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/Postgres-CED4DA?style=for-the-badge&logo=postgresql&logoColor=23316192" alt="Postgres" />  
-<img src="https://img.shields.io/badge/Express-CED4DA?style=for-the-badge&logo=express&logoColor=white" alt="Express" /> 
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/Google%20Sheets-CED4DA?style=for-the-badge&logo=google-sheets&logoColor=34A853" alt="Google Sheets" /> 
+<span id="metricas">
     
-→ [Voltar ao topo](#topo)
+## :chart_with_upwards_trend: Métricas do time
+Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: frontend e backend, onde, na primeira sprint, o time de frontend ficou responsável pela confecção do protótipo, projeto frontend e integração de funcionalidades enquanto o time de backend ficou responsável pela criação dos endpoints necessários e pesquisas sobre o tema do desafio, procurando implementar a melhor arquitetura possível. 
+- O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
+    
+<div align="center"><img src="" alt="Burndown chart"></img></div>
+    
+<span id="links">
+    
+## :link: Links úteis
 
-<span id="equipe">
-
-## :busts_in_silhouette: Equipe
-
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Product Owner | Thiago Henrique Ferreira              |  [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-henrique-ferreira-2499a41a8/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ThHenrique)| 
-| Scrum Master  | Maria Gabriela Garcia dos Santos Reis |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mariagabrielareis/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MariaGabrielaReis)      |
-|   Dev Team    | Gabriel Camargo Leite                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-camargo-leite/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GabrielCamargoL)   |
-|   Dev Team    | Giovana Thaís de Oliveira Silva       |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gioliveirass)            |
-|   Dev Team    | João Marcos Oliveira Santos           |    [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joaomarcoso/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/JoaoM-py)                |
+- Site do projeto: []()
+- Tags geradas em cada repositório que simbolizam o fim da 1ª sprint:
+  - Repositório do site: [clique aqui para acessar "cloud-fox-web"](https://github.com/The-Bugger-Ducks/cloud-fox-web)
+  - Repositório da API: [clique aqui para acessar "cloud-fox-back"](https://github.com/The-Bugger-Ducks/cloud-fox-back)
 
 → [Voltar ao topo](#topo)
