@@ -34,13 +34,18 @@ Este requisito se trata do cadastro de estações e usuários, o que significa p
 
 <div align="center">
 
-| Fluxo de usuário comum                                                                                                                   | Fluxo de usuário administrador                                                                                                                                                                               |
-| :--------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - solicitação de novo enquadramento de perfil | **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - listagem de usuários; <br> - aceite/recusa de solicitações de enquadramento de perfil <br> - edição de usuários |
+| Fluxo de usuário comum                                                                                                                   | 
+| :--------------------------------------------------------------------------------------------------------------------------------------- |
+| ![user_simple](https://user-images.githubusercontent.com/69374340/190942583-50d5ea43-d5a7-4ee2-a57c-7874c0b18f6d.gif) <br> **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - solicitação de novo enquadramento de perfil |
 
-| Fluxo de estações                                                                                                                                                                                                | Demonstração                                                   |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
-| **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); | Cadastro de estações (manual) <br> Visualização dos dados <br> |
+| Fluxo de usuário administrador                            |
+| :-------------------------------------------------------- |
+| ![user_admin](./user_admin.gif) <br> **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - listagem de usuários; <br> - aceite/recusa de solicitações de enquadramento de perfil <br> - edição de usuários |
+
+
+| Fluxo de estações                  |
+| :--------------------------------- |
+| ![station](./station.gif) <br> **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); |
 
 </div>
 
@@ -48,7 +53,7 @@ Este requisito se trata do cadastro de estações e usuários, o que significa p
 
 Este requisito se trata do modo de visualização dos dados emitidos pelas estações meteorológicas cadastradas. Na estrutura que foi implementada, qualquer usuário (fazendo login ou não, até o momento) pode acessar todos os dados disponíveis de estações existentes, como nome, localização e os dados enviados por seus sensores, observando-os em forma de gráficos de linha (onde o eixo horizontal é sempre o tempo e o vertical muda de unidade a cada tipo de sensor analisado, podendo representar milímetros de água, no caso do pluviômetro, graus Celsius, no caso do sensor de temperatura, entre outras unidades de medida possíveis).
 
-<div align="center"><img src="" alt="Demonstração da dashboard de estações"></img></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/69374340/190942988-3b7975c7-95ab-4ff4-b2da-7840ffe30f0a.png" alt="Demonstração da dashboard de estações"></img></div>
 
 ### ☔️ RNF 08: Implementar CI/CD
 
