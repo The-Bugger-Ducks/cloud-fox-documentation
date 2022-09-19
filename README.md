@@ -30,22 +30,21 @@ Para extrair e entender os desejos do cliente, foi construído um protótipo ini
 
 ### ❄️ RF 03: Cadastro das estações, parâmetros e usuários
 
-Este requisito se trata do cadastro de estações e usuários, o que significa permitir o CRUD completo de usuários além de criar, listar e acessar dados de estações. Para isso, foi desenvolvido o fluxo de usuários e o dashboard de estações, porém, como o acordado entre time e cliente, o cadastro das estações será automático (entre a estação e o backend), sem parte interativa presente no frontend, mas sua automatização (do cadastro e recebimento dos dados de estações) serão desenvolvidos a partir da próxima sprint.
+Este requisito se trata do cadastro de estações e usuários, o que significa permitir o CRUD completo de usuários além de criar, listar e acessar dados de estações. Para isso, foi desenvolvido o fluxo de usuários (desde login até exclusão de conta) e o dashboard de estações, porém, como o acordado entre time e cliente, o cadastro das estações será automático (entre a estação e o backend), sem parte interativa presente no frontend, mas sua automatização (do cadastro e recebimento dos dados de estações) serão desenvolvidos a partir da próxima sprint.
 
 <div align="center">
 
-| Fluxo de usuário comum                                                                                                                   | 
-| :--------------------------------------------------------------------------------------------------------------------------------------- |
-| ![user_simple](https://user-images.githubusercontent.com/69374340/190942583-50d5ea43-d5a7-4ee2-a57c-7874c0b18f6d.gif) <br> **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - solicitação de novo enquadramento de perfil |
+| Fluxo de usuário comum                                                                                                | 
+| :-------------------------------------------------------------------------------------------------------------------- |
+| ![user_simple](https://user-images.githubusercontent.com/69374340/190942583-50d5ea43-d5a7-4ee2-a57c-7874c0b18f6d.gif) |
 
 | Fluxo de usuário administrador                            |
 | :-------------------------------------------------------- |
-| ![user_admin](./user_admin.gif) <br> **Funcionalidades:** <br> - criação de conta; <br> - login; <br> - exclusão de conta; <br> - listagem de usuários; <br> - aceite/recusa de solicitações de enquadramento de perfil <br> - edição de usuários |
-
+| ![user_admin](./user_admin.gif) |
 
 | Fluxo de estações                  |
 | :--------------------------------- |
-| ![station](./station.gif) <br> **Funcionalidades:** <br> - criação de estação (manual); <br> - listagem de estações; <br> - visualização dos dados (dahsboard); |
+| ![station](./station.gif) |
 
 </div>
 
