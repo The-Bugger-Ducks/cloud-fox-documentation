@@ -22,8 +22,8 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 | Sprint | Previsão de entrega | Status           | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
 | 01 | 18/09/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-01/README.md) |
-| 02 | 09/10/2022 | 🚧 Em andamento    | -- |
-| 03 | 06/11/2022 | 🛑 Não iniciada    | -- |
+| 02 | 09/10/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-02/README.md) |
+| 03 | 06/11/2022 | 🚧 Em andamento    | -- |
 | 04 | 27/11/2022 | 🛑 Não iniciada    | -- |
 
 → [Voltar ao topo](#topo)
@@ -53,6 +53,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 <img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React" /> 
 <img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
 <img src="https://img.shields.io/badge/Postgres-CED4DA?style=for-the-badge&logo=postgresql&logoColor=23316192" alt="Postgres" />  
+<img src="https://img.shields.io/badge/MongoDB-CED4DA?style=for-the-badge&logo=mongodb&logoColor=4EA94B" alt="MongoDB" />
 <img src="https://img.shields.io/badge/Express-CED4DA?style=for-the-badge&logo=express&logoColor=white" alt="Express" /> 
 <img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
 <img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
