@@ -29,7 +29,7 @@ Para esta entrega o foco se deu com o início da construção do datalogger para
 
 Este requisito se trata do esboço da lógica que seria implantada no datalogger da estação meteorológica, esta que deve coletar e enviar informações a cerca de sensores para comunicação com nosso sistema, que por sua vez pode exibir os dados recebidos.
 
-> Acesse o repositório com o código-fonte [neste link](https://github.com/The-Bugger-Ducks/cloud-fox-iot)
+> 💡 Acesse o repositório com o código-fonte [neste link](https://github.com/The-Bugger-Ducks/cloud-fox-iot)
 
 ### ❄️ RF 03: Cadastro das estações, parâmetros e usuários
 
@@ -51,7 +51,7 @@ Em prol de um melhor aproveitamento das habilidades de cada integrante, o time f
     
 <div align="center">
     
-![Gráfico de Burndown]()
+![Gráfico de Burndown](https://user-images.githubusercontent.com/69374340/194781689-c64faf6c-4ecf-4abb-b8c1-60799196473c.png)
 </div>
     
 <span id="links">
