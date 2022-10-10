@@ -22,6 +22,8 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 
 <span id="entregas">
         
+<br>
+    
 ## 🌤 Entregas
 Para esta entrega o foco se deu com o início da construção do datalogger para a estação meteorológica mas também a continuidade dos requisitos iniciados na primeira sprint, como o cadastro de estações, sensores e usuários além da implementação de CI/CD e documentação da API. Confira abaixo o resultado desta entrega:
 
@@ -42,7 +44,24 @@ Tal requisito, iniciado na sprint passada, agora engloba formulários para cria�
 | ![Demonstração do cadastro de estações]() |
 
 </div>
+    
+### ❄️ RF 05: Dashboards para visualização dos parâmetros meteorológicos
 
+Atendendo a pedidos do cliente para agregar mais dinamismo ao banco de dados da aplicação, todo o modelo de dados foi reformulado ao que se diz respeito a estações, seus sensores e as coletas de dados propriamente ditas. Abaixo se pode observar o modelo utilizado na primeira sprint, que para os requisitos iniciais não revelou grandes problemas, mas que limitava o sistema o suficiente para que uma revisão fosse necessária (imagem da esquerda), e o novo modelo implementado que abrange muito mais possibilidades a cerca de sensores (imagem da direita)
+
+<details>
+    <summary><b>Comparação do modelo de dados</b></summary>
+<div align="center">
+
+| Antes                                      | Depois                                     |
+| :----------------------------------------: | :----------------------------------------: |
+| ![Antes](https://user-images.githubusercontent.com/69374340/194787430-d8a63838-fa40-4b9c-a918-12963190c15a.png) |![Depois](https://user-images.githubusercontent.com/69374340/194787433-fb8eb5af-5c60-4481-a4b5-5389f5d39f86.png) |
+
+</div>
+</details>
+        
+<br>
+    
 <span id="metricas">
     
 ## :chart_with_upwards_trend: Métricas do time
@@ -53,6 +72,9 @@ Em prol de um melhor aproveitamento das habilidades de cada integrante, o time f
     
 ![Gráfico de Burndown](https://user-images.githubusercontent.com/69374340/194781689-c64faf6c-4ecf-4abb-b8c1-60799196473c.png)
 </div>
+    
+            
+<br>
     
 <span id="links">
     
