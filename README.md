@@ -39,9 +39,9 @@ Tal requisito, iniciado na sprint passada, agora engloba formulários para cria�
 
 <div align="center">
 
-| Cadastro de estações e seus sensores      |
-| :---------------------------------------- |
-| ![Demonstração do cadastro de estações]() |
+| Cadastro de estações e seus sensores                       |
+| :--------------------------------------------------------: |
+| ![Demonstração do cadastro de estações](./new_station.gif) |
 
 </div>
     
