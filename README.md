@@ -27,7 +27,7 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 ## 🌤 Entregas
 Para esta entrega o foco se deu com o início da construção do datalogger para a estação meteorológica mas também a continuidade dos requisitos iniciados na primeira sprint, como o cadastro de estações, sensores e usuários além da implementação de CI/CD e documentação da API. Confira abaixo o resultado desta entrega:
 
-### ❄️ RF 03: Criação de datalogger para uma estação meteorológica
+### ❄️ RF 01: Criação de datalogger para uma estação meteorológica
 
 Este requisito se trata do esboço da lógica que seria implantada no datalogger da estação meteorológica, esta que deve coletar e enviar informações a cerca de sensores para comunicação com nosso sistema, que por sua vez pode exibir os dados recebidos.
 
@@ -72,7 +72,6 @@ Em prol de um melhor aproveitamento das habilidades de cada integrante, o time f
     
 ![Gráfico de Burndown](https://user-images.githubusercontent.com/69374340/194781689-c64faf6c-4ecf-4abb-b8c1-60799196473c.png)
 </div>
-    
             
 <br>
     
