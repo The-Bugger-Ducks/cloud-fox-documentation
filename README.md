@@ -34,7 +34,7 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 
 <div align="center">
 
-![BACKLOGS](https://user-images.githubusercontent.com/69374340/190915973-c44bf95b-e084-437b-9138-55a249610db3.png)
+![BACKLOGS](https://user-images.githubusercontent.com/69374340/197537125-807dc551-35f6-4e66-aa10-2536a816fe53.png)
 </div>
   
 → [Voltar ao topo](#topo)
