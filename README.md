@@ -23,8 +23,8 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
 | 01 | 18/09/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-01/README.md) |
 | 02 | 09/10/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-02/README.md) |
-| 03 | 06/11/2022 | 🚧 Em andamento    | -- |
-| 04 | 27/11/2022 | 🛑 Não iniciada    | -- |
+| 03 | 06/11/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-03/README.md) |
+| 04 | 27/11/2022 | 🚧 Em andamento    | -- |
 
 → [Voltar ao topo](#topo)
 
