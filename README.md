@@ -1,77 +1,91 @@
-<h1 align="center"> :cloud: Cloud Fox :cloud: </h1>
-
 <span id="topo">
+
+<h1 align="center">Sprint 3: 17/10/2022 a 06/11/2022</h1>
+
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs, Épicos & User Stories</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a> &nbsp |&nbsp &nbsp
+    <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
+    <a href="#links">Links úteis</a>
 </p>
-   
-<span id="sobre">
 
-## :bookmark_tabs: Sobre o projeto
-A partir da apresentação do desafio enfrentado pela empresa parceira, a solução desenvolvida se configura em um sistema para observação de dados meteorológicos, assim abrangendo a montagem e configuração de uma estação meteorológica com diversos tipos de sensores e um sistema capaz de ler os dados enviados por ela, permitindo a análise de seus dados em gráficos e tabelas tanto em modelo desktop/web quanto mobile.
+Nesta terceira sprint a equipe prosseguiu no desenvolvimento dos requisitos planejados para a sprint, como a recepção dos dados das estações, além de implementar melhorias estruturais na plataforma (a nível de código), ajustar detalhes (no login, dashboard e cadastro de estações, por exemplo) e alterando as ferramentas utilizadas para o deploy da aplicação (removendo o servidor do Render e trazendo-o para a AWS).
 
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
-
-:pushpin: Status do Projeto: **Em andamento** 🚧
-
-### 🏁 Entregas de Sprints
-Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web, mobile, back...), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
-| Sprint | Previsão de entrega | Status           | Histórico |
-|:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 18/09/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-01/README.md) |
-| 02 | 09/10/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-02/README.md) |
-| 03 | 06/11/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-03/README.md) |
-| 04 | 27/11/2022 | 🚧 Em andamento    | -- |
-
-→ [Voltar ao topo](#topo)
-
-<span id="backlogs">
-
-## :dart: Backlogs, Épicos & User Stories
-
-<div align="center">
-
-![BACKLOGS](https://user-images.githubusercontent.com/69374340/197537125-807dc551-35f6-4e66-aa10-2536a816fe53.png)
-</div>
-  
-→ [Voltar ao topo](#topo)
-
-<span id="tecnologias">
-
-## 🛠️ Tecnologias
-
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
-
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 
-<img src="https://img.shields.io/badge/Styled_Components-CED4DA?style=for-the-badge&logo=styled-components&logoColor=ff309f" alt="Styled Components" /> 
-<img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React" /> 
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/Postgres-CED4DA?style=for-the-badge&logo=postgresql&logoColor=23316192" alt="Postgres" />  
-<img src="https://img.shields.io/badge/MongoDB-CED4DA?style=for-the-badge&logo=mongodb&logoColor=4EA94B" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Express-CED4DA?style=for-the-badge&logo=express&logoColor=white" alt="Express" /> 
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/Google%20Sheets-CED4DA?style=for-the-badge&logo=google-sheets&logoColor=34A853" alt="Google Sheets" /> 
+<span id="objetivos">
     
+## :dart: Objetivos da Sprint
+Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por essa sprint são:
+
+- :heavy_check_mark: **RF 04:** Recepção dos dados das estações meteorológicas
+- :heavy_check_mark: **RF 07:** Geração de alertas
+- :heavy_check_mark: **RNF 06:** Tutorial do significado de cada parâmetro meteorológico
+
+<span id="entregas">
+        
+## 🌤 Entregas
+O foco do desenvolvimento se deu na comunicação entre o datalogger e o sistema, assim como a geração de alertas e tutoriais, mas também houveram grandes esforços para ajustes de detalhes no sistema, visando melhorar a experiência do usuário com a plataforma. Confira abaixo os resultados desta entrega:
+
+### 🌪 RF 04: Recepção dos dados das estações meteorológicas
+
+Este requisito se trata da comunicação entre o datalogger (que retém os dados criados pelas estações meteorológicas) e o nosso sistema, sendo assim foi criado um mecanismo que simula uma estação meteorológica enviando dados a cada 1h para o servidor, este que cadastra as coletas e disponibiliza para a visualização das mesmas na plataforma. O arquivo com o código fonte pode ser encontrado no repositório de IoT do projeto, ou por [este link](https://github.com/The-Bugger-Ducks/cloud-fox-iot).
+
+### ⚡️ RF 07: Geração de alertas
+
+Tal requisito se trata da possibilidade de criar alertas que relacionam um parâmetro meteorológico a um determinado limite, seja mínimo ou máximo, assim, caso os valores ultrapassem esta faixa, um alerta seria gerado automaticamente como forma de notificação do ocorrido, porém este requisito não foi trabalhado durante a sprint, sendo transferido para a próxima e última sprint do projeto.
+
+### ☔️ RNF 06: Tutorial do significado de cada parâmetro meteorológico
+
+Este requisito não funcional se trata da criação de tutoriais para explanação dos significados dos parâmetros meteorológicos manipulados visando auxiliar no aprendizado, entendimento e interpretação dos dados apresentados na plataforma em forma de gráficos, no entanto este requisito não foi trabalhado durante a sprint (apenas foi selecionado um modelo a ser usado de inspiração, por parte do cliente), dessa forma esse épico foi transferido para a próxima e última sprint do projeto.
+
+### ✨ Melhorias
+
+Englobando o ajuste de detalhes e criação de algumas funcionalidades, as melhorias foram feitas visando melhor interação e utilidade da plataforma. As mudanças implementadas foram:
+
+- [x] **Deploy na AWS:** feito por uma action do GitHub Actions, onde foi criado um ambiente linux com as configurações necessárias para rodar o projeto, assim, instala-se as dependências, verifica-se os testes e, caso tudo estiver ok, é gerado o build do projeto e a transferência para o servidor na AWS
+
+- [x] **Cadastro de parâmetros:** foi criado um modal para cadastro de parâmetros de uma estação
+
+- [x] **Edição de estação:** foi criado um modal que permite alterar nome, descrição e localização (lat, lng) de uma estação
+<div align="center"><img src="https://user-images.githubusercontent.com/69374340/200198402-7c070ea3-ad9f-4667-9ecb-656f6f86922c.png" width="500px"></img></div>
+
+- [x] **Ajustes na responsividade do projeto:** foram refeitas algumas das adequações do sistema para diferentes tamanhos de tela
+
+- [x] **Ajustes no login social:** foram retiradas as opções de login com Apple e Facebook (como o acordado com o cliente) e ajustado algumas pendências relacionadas ao login social do Google.
+
+- [x] **Refatorações no back para captura de erros:** foram aplicados métodos de captura de erros para futuros tratamentos e análise dos mesmos quando ocorrem, via blocos de código "try catch" e testes unitários, por exemplo
+
+- [x] **Implementação de testes unitários (no frontend e no backend):** como parte da entrega de CI do projeto, foram criados alguns testes unitários no projeto, sendo utilizado o Jest (frontend) e o Vitest (backend)
+
 → [Voltar ao topo](#topo)
 
-<span id="equipe">
+<span id="metricas">
+    
+## :chart_with_upwards_trend: Métricas do time
+Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: frontend e backend, onde o "time front" realizou ajustes de forma a melhorar a UX do sistema, criou interfaces para edição de estações e regulou questões acerca do login social. Já o "time back" atuou na comunicação datalogger-sistema, além de criar determinados endpoints para os novos requisitos e alteração de ferramentas utilizadas no deploy. 
+- O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
+    
+<div align="center">
+    
+![Burndown](https://user-images.githubusercontent.com/69374340/200199172-3dec9445-2544-48e0-870e-bd013bbc23d5.png)
+</div>
 
-## :busts_in_silhouette: Equipe
+<details>
+ <summary>Lista de atividades desenvolvidas (com estimativa, responsável e datas)</summary>
+ <br>
+<div align="center">
+ 
+![Tarefas](https://user-images.githubusercontent.com/69374340/200199416-b8054dbe-26fc-47cf-9077-d1dfe7840239.png)
+</div>
+</details>
+    
+<span id="links">
+    
+## :link: Links úteis
 
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Product Owner | Thiago Henrique Ferreira              |  [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-henrique-ferreira-2499a41a8/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ThHenrique)| 
-| Scrum Master  | Maria Gabriela Garcia dos Santos Reis |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mariagabrielareis/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MariaGabrielaReis)      |
-|   Dev Team    | Gabriel Camargo Leite                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-camargo-leite/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GabrielCamargoL)   |
-|   Dev Team    | Giovana Thaís de Oliveira Silva       |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gioliveirass)            |
-|   Dev Team    | João Marcos Oliveira Santos           |    [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joaomarcoso/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/JoaoM-py)                |
+- Site do projeto: [https://cloud-fox.netlify.app/](https://cloud-fox.netlify.app/)
+- Tags geradas em cada repositório que simbolizam o fim da 3ª sprint:
+  - Repositório do site: [clique aqui para acessar "cloud-fox-web"](https://github.com/The-Bugger-Ducks/cloud-fox-web)
+  - Repositório da API: [clique aqui para acessar "cloud-fox-back"](https://github.com/The-Bugger-Ducks/cloud-fox-back)
+  - Repositório do datalogger: [clique aqui para acessar "cloud-fox-iot"](https://github.com/The-Bugger-Ducks/cloud-fox-iot)
 
 → [Voltar ao topo](#topo)
