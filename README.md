@@ -43,7 +43,8 @@ Englobando o ajuste de detalhes e criação de algumas funcionalidades, as melho
 
 - [x] **Deploy na AWS:** feito por uma action do GitHub Actions, onde foi criado um ambiente linux com as configurações necessárias para rodar o projeto, assim, instala-se as dependências, verifica-se os testes e, caso tudo estiver ok, é gerado o build do projeto e a transferência para o servidor na AWS
 
-- [x] **Cadastro de parâmetros:** foi criado um modal para cadastro de parâmetros de uma estação
+- [x] **Cadastro de parâmetros:** foi criado um modal para cadastro de parâmetros de uma estação, onde se pode cadastrar quantos parâmetros forem necessários, com nome, apelido, fator e unidade, e depois os associar à estação
+<div align="center"><img src="./ParameterModal.gif"></img></div>
 
 - [x] **Edição de estação:** foi criado um modal que permite alterar nome, descrição e localização (lat, lng) de uma estação
 <div align="center"><img src="https://user-images.githubusercontent.com/69374340/200198402-7c070ea3-ad9f-4667-9ecb-656f6f86922c.png" width="500px"></img></div>
