@@ -66,8 +66,8 @@ Em prol de um melhor aproveitamento das habilidades de cada integrante, o time f
 - O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
     
 <div align="center">
-    
-![Burndown](https://user-images.githubusercontent.com/69374340/200199172-3dec9445-2544-48e0-870e-bd013bbc23d5.png)
+
+![Burndown](https://user-images.githubusercontent.com/69374340/200214747-f13cc7e0-20c1-4187-8a82-84bf7a474944.png)
 </div>
 
 <details>
@@ -75,8 +75,9 @@ Em prol de um melhor aproveitamento das habilidades de cada integrante, o time f
  <br>
 <div align="center">
  
-![Tarefas](https://user-images.githubusercontent.com/69374340/200199416-b8054dbe-26fc-47cf-9077-d1dfe7840239.png)
+![Tarefas](https://user-images.githubusercontent.com/69374340/200215160-a9bba57c-bd3c-4c62-a4e2-50e847456466.png)
 </div>
+
 </details>
     
 <span id="links">
