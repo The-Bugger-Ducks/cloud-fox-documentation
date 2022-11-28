@@ -66,7 +66,7 @@ Este requisito não funcional se trata da criação de tutoriais para explanaç�
 
 <div align="center">
 
-![Demonstração das notificações]()
+![Demonstração das notificações](https://user-images.githubusercontent.com/69374340/204189152-12b09fb1-c3ca-4f31-a498-b3bf721ac97a.png)
 
 </div>
 
