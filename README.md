@@ -100,7 +100,7 @@ responsáveis.
 ## :link: Links úteis
 
 - Site do projeto: [https://cloud-fox.netlify.app/](https://cloud-fox.netlify.app/)
-- Tags geradas em cada repositório que simbolizam o fim da 3ª sprint:
+- Tags geradas em cada repositório que simbolizam o fim da 4ª sprint:
   - Repositório do site: [clique aqui para acessar "cloud-fox-web"](https://github.com/The-Bugger-Ducks/cloud-fox-web)
   - Repositório da API: [clique aqui para acessar "cloud-fox-back"](https://github.com/The-Bugger-Ducks/cloud-fox-back)
   - Repositório do datalogger: [clique aqui para acessar "cloud-fox-iot"](https://github.com/The-Bugger-Ducks/cloud-fox-iot)
