@@ -44,8 +44,7 @@ Tal requisito se trata da possibilidade de criar alertas que relacionam um parâ
 
 <div align="center">
 
-![Demonstração da geração de alertas]()
-
+![Demonstração da geração de alertas](https://user-images.githubusercontent.com/69374340/204180918-8b7fd6f1-eb51-4951-8630-d0ea6bde6420.gif)
 </div>
 
 > **Observação:** devido a complexidade deste requisito a nível estrutural (criar o modelo do banco de dados, os endpoints e a integração do serviço), a entrega está sendo feita através das funcionalidades "mockadas", onde não há real interação entre frontend e backend, logo, não há armazenamento de novos alertas.
