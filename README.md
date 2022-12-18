@@ -15,7 +15,7 @@ A partir da apresentação do desafio enfrentado pela empresa parceira, a soluç
 
 > _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
 
-:pushpin: Status do Projeto: **Em andamento** 🚧
+:pushpin: Status do Projeto: **Concluído** ✔️
 
 ### 🏁 Entregas de Sprints
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web, mobile, back...), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
@@ -25,6 +25,7 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 | 02 | 09/10/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-02/README.md) |
 | 03 | 06/11/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-03/README.md) |
 | 04 | 27/11/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/cloud-fox-documentation/blob/sprint-04/README.md) |
+
 → [Voltar ao topo](#topo)
 
 <span id="backlogs">
