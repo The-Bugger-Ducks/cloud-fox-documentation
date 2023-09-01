@@ -1,0 +1,9 @@
+[submodule "IoT cloud-fox-iot"]
+	path = IoT cloud-fox-iot
+	url = https://github.com/The-Bugger-Ducks/cloud-fox-iot.git
+[submodule "Backend cloud-fox-back"]
+	path = Backend cloud-fox-back
+	url = https://github.com/The-Bugger-Ducks/cloud-fox-back.git
+[submodule "Frontend cloud-fox-web"]
+	path = Frontend cloud-fox-web
+	url = https://github.com/The-Bugger-Ducks/cloud-fox-web.git
